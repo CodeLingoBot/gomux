@@ -139,7 +139,7 @@ func (this *Window) Pane(number int) *Pane {
 	return this.panes[number]
 }
 
-// Executes a command on the first pane of this window
+// Exec executes a command on the first pane of this window
 //
 // // example
 // // example
